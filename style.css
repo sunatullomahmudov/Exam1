@@ -368,6 +368,22 @@
     margin-left: 10%;
     margin-top: 150px;
 }
+.divv
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    align-items: center;
+}
+.img9
+{
+    margin-top: 30px;
+}
+.section7
+{
+    margin-left: 10%;
+    margin-top: 100px;
+}
 @media(max-width: 510px)
 {
     .none
@@ -535,6 +551,25 @@
     {
         margin-left: 5%;
         margin-top: 50px;
+    }
+    .section7
+    {
+        margin-left: 5%;
+        margin-top: 50px;
+    }
+    .img9
+    {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .img10
+    {
+        display: none;
+    }
+    .divv
+    {
+        margin-right: 10%;
+        align-items: center;
     }
 }
 
