@@ -285,6 +285,34 @@
 {
     display: none;
 }
+.image1
+{
+    border: 1px solid rgb(214, 214, 214);
+    padding: 5px;
+    width: 180px;
+}
+.image2
+{
+    border: 1px solid rgb(214, 214, 214);
+    padding: 5px;
+    width: 180px;
+}
+.img8
+{
+    margin: auto;
+}
+.imgdiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10%;
+    margin-top: 20px;
+}
+.section5
+{
+    padding-left: 10%;
+    margin-top: 100px;
+}
 @media(max-width: 510px)
 {
     .none
