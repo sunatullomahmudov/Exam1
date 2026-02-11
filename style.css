@@ -199,6 +199,7 @@
     height: 700px;
     background-color: #1B1E31;
     padding: 50px 10%;
+    margin-top: 80px;
 }
 .backgrounddiv
 {
@@ -213,6 +214,76 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+}
+.top
+{
+    margin-top: 100px;
+}
+.section4
+{
+    margin-left: 10%;
+    display: flex;
+    gap: 100px;
+    align-items: end;
+    margin-top: 50px;
+}
+.davr
+{
+    width: 400px;
+    height: 400px;
+    background-color: #60C880;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.p1
+{
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 150px;
+}
+.backgroundimg
+{
+    background-image: url(./Ellipse\ 101.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    
+}
+.img3
+{
+    width: 80px;
+    position: relative;
+    bottom: 170px;
+    right: 40px;
+}
+.img4
+{
+    width: 80px;
+    position: relative;
+    bottom: 440px;
+    left: 120px;
+}
+.img5
+{
+    width: 80px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+.img6
+{
+    width: 80px;
+    position: relative;
+    bottom: 180px;
+    left: 210px;
+}
+.img7
+{
+    display: none;
 }
 @media(max-width: 510px)
 {
@@ -312,10 +383,42 @@
         width: 100%;
         height: 1780px;
         padding-top: 30px;
+        margin-top: 50px;
     }
     .bigp2
     {
         margin-left: 5%;
+    }
+    .backgrounddiv
+    {
+        width: 300px;
+    }
+    .section4
+    {
+        flex-direction: column;
+    }
+    .davr
+    {
+        width: 300px;
+        height: 300px;
+    }
+    .p1
+    {
+        padding-top: 100px;
+        font-size: 25px;
+    }
+    .backgroundimg
+    {
+        display: none;
+    }
+    .img7
+    {
+        margin-right: 20px;
+        margin-top: -50px;
+    }
+    .top
+    {
+        margin-top: 0;
     }
 }
 
