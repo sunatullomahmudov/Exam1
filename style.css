@@ -88,7 +88,7 @@
 {
     font-size: 40px;
     font-weight: 800;
-    color: #60C880;
+    color: white;
 }
 .flex
 {
@@ -101,6 +101,13 @@
     font-size: 50px;
     font-weight: 600;
     margin-top: 20px;
+}
+.bigp3
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: white;
 }
 .bigp2
 {
@@ -384,6 +391,57 @@
     margin-left: 10%;
     margin-top: 100px;
 }
+.section8
+{
+    width: 100%;
+    height: 530px;
+    background-color: #60C880;
+    margin-top: 100px;
+}
+.p2
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.input
+{
+    background: none;
+    border: none;
+    border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.button
+{
+    width: 300px;
+    padding: 13px;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+}
+.div2_1
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.divv2
+{
+    padding-top: 50px;
+    padding-left: 10%;
+}
+.ptext1
+{
+    color: white;
+    margin-top: 50px;
+}
+.text1
+{
+    border-bottom: 1px solid white;
+    -webkit-text-size-adjust: 200px;
+}
 @media(max-width: 510px)
 {
     .none
@@ -570,6 +628,10 @@
     {
         margin-right: 10%;
         align-items: center;
+    }
+    .div2_1
+    {
+        flex-direction: column;
     }
 }
 
